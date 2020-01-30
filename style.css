@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.keybot{
+    border: 1px solid slategray;
+    padding: 5px;
+    border-radius: 4px;
+    position: relative;
+    width: 822px;
+    margin-left: 200px;
+}
+.line::after{
+content: "";
+display: block;
+clear: both;
+}
+.key{
+    float: left;
+    width: 40px;
+    height: 40px;
+    border: 1px solid slategray;
+    border-radius: 4px;
+    margin: 3px;
+    padding: 4px;
+    text-align: center;
+    line-height: 32px;
+    cursor: pointer;
+    background-color: wheat;
+
+}
+
+.backspace{
+    width: 76px;
+}
+
+
+
+.tab{
+    width: 60px;
+}
+
+.caps-loc{
+    width: 70px;
+}
+
+.left-shift{
+    width: 72px;
+}
+
+.rigth-shift{
+    width: 72px;
+}
+
+.space{
+    width: 280px;
+}
+
+.left-control{
+width: 55px;
+}
+
+.rigth-control{
+    width: 55px;
+}
+
+
+
+
+.enter{
+    position: absolute;
+    right: 0;
+    top: 292px;
+    width: 55px;
+    height: 88px;
+
+}
+
+
+
+ textarea{
+    width: 800px;
+    border: 9px solid black;
+    border-radius: 6px;
+    height: 200px;
+    font-size: 18px;
+    font-weight: bold;
+    resize: none;
+}
+
+
+
+.aut{
+    font-size: 200px;
+   position: relative; left: 340px; bottom: 50px;
+}
